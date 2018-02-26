@@ -48,7 +48,7 @@ export class Compute extends OAuth2Client {
 
   /**
    * Indicates whether the credential requires scopes to be created by calling
-   * createdScoped before use.
+   * createScoped before use.
    * @return Boolean indicating if scope is required.
    */
   createScopedRequired() {
